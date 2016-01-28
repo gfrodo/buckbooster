@@ -6,10 +6,10 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.27" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -20,8 +20,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -1889,19 +1889,19 @@ design rules under a new name.</description>
 <element name="U$3" library="teile" package="PG-TDSON-8" value="STL100NH3LL" x="16.51" y="35.56" rot="R270"/>
 <element name="U$4" library="teile" package="SC70-6L" value="SIA440DJ" x="13.335" y="58.42" rot="R270"/>
 <element name="U$5" library="teile" package="SC70-6L" value="SIA440DJ" x="13.335" y="50.8" rot="R270"/>
-<element name="R1" library="resistor-shunt" package="BVS" value="0,004" x="12.7" y="43.815" rot="R180">
+<element name="R1" library="resistor-shunt" package="BVS" value="0,005" x="12.7" y="43.815" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="12.7" y="43.815" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="12.7" y="43.815" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="12.7" y="43.815" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="12.7" y="43.815" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="resistor-shunt" package="BVS" value="0,009" x="21.59" y="17.78" rot="R270">
+<element name="R2" library="resistor-shunt" package="BVS" value="0,01" x="21.59" y="17.78" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="21.59" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="21.59" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="21.59" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="21.59" y="17.78" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R3" library="resistor-shunt" package="BVS" value="0,003" x="24.13" y="64.135" rot="R270">
+<element name="R3" library="resistor-shunt" package="BVS" value="0,004" x="24.13" y="64.135" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="24.13" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="24.13" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="24.13" y="64.135" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1922,16 +1922,16 @@ design rules under a new name.</description>
 <element name="C10" library="resistor" package="C0805K" value="4µ7" x="30.353" y="32.385" rot="R270"/>
 <element name="C11" library="resistor" package="C0805K" value="100n" x="45.593" y="27.432" rot="R180"/>
 <element name="C12" library="resistor" package="C0805K" value="33n" x="45.72" y="32.639"/>
-<element name="C13" library="resistor" package="C0805K" value="22n" x="44.069" y="20.447" rot="R270"/>
+<element name="C13" library="resistor" package="C0805K" value="5n" x="44.069" y="20.447" rot="R270"/>
 <element name="R4" library="resistor" package="M0805" value="51" x="31.115" y="59.69" rot="R180"/>
-<element name="R5" library="resistor" package="M0805" value="866k" x="43.561" y="46.863" rot="R90"/>
-<element name="R6" library="resistor" package="M0805" value="1M" x="44.45" y="49.53" rot="R180"/>
-<element name="R7" library="resistor" package="M0805" value="576k" x="46.228" y="45.974" rot="R180"/>
-<element name="R8" library="resistor" package="M0805" value="57k6" x="47.244" y="48.641" rot="R90"/>
+<element name="R5" library="resistor" package="M0805" value="470k" x="43.561" y="46.863" rot="R90"/>
+<element name="R6" library="resistor" package="M0805" value="470k" x="44.45" y="49.53" rot="R180"/>
+<element name="R7" library="resistor" package="M0805" value="100k" x="46.228" y="45.974" rot="R180"/>
+<element name="R8" library="resistor" package="M0805" value="56k" x="47.244" y="48.641" rot="R90"/>
 <element name="R9" library="resistor" package="M0805" value="84k5" x="33.274" y="19.431" rot="R270"/>
-<element name="R10" library="resistor" package="M0805" value="5k1" x="44.958" y="17.78" rot="R180"/>
-<element name="R11" library="resistor" package="M0805" value="73k2" x="33.147" y="16.002" rot="R270"/>
-<element name="R12" library="resistor" package="M0805" value="8k06" x="31.115" y="19.431" rot="R270"/>
+<element name="R10" library="resistor" package="M0805" value="12k" x="44.958" y="17.78" rot="R180"/>
+<element name="R11" library="resistor" package="M0805" value="470k" x="33.147" y="16.002" rot="R270"/>
+<element name="R12" library="resistor" package="M0805" value="30k" x="31.115" y="19.431" rot="R270"/>
 <element name="R13" library="resistor" package="M0805" value="200k" x="45.72" y="36.449"/>
 <element name="R14" library="resistor" package="M0805" value="100k" x="45.72" y="34.544"/>
 <element name="D3" library="diode" package="SOD-123_MINI-SMA" value="CGRM4001-G" x="33.02" y="55.245"/>
@@ -1954,15 +1954,15 @@ design rules under a new name.</description>
 </element>
 <element name="LED1" library="led" package="SML0805" value="" x="45.72" y="43.561" rot="R180"/>
 <element name="LED2" library="led" package="SML0805" value="" x="45.72" y="38.227"/>
-<element name="R16" library="resistor" package="M0805" value="51" x="45.72" y="40.005" rot="R180"/>
-<element name="R17" library="resistor" package="M0805" value="51" x="45.72" y="41.91" rot="R180"/>
+<element name="R16" library="resistor" package="M0805" value="0" x="45.72" y="40.005" rot="R180"/>
+<element name="R17" library="resistor" package="M0805" value="330" x="45.72" y="41.91" rot="R180"/>
 <element name="X1" library="con-lumberg" package="NEB21R" value="NEB21R" x="45.085" y="70.485" rot="R90">
 <attribute name="OC_NEWARK" value="97K6458" x="45.085" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="NEB 21 R" x="45.085" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="45.085" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="1217037" x="45.085" y="70.485" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R18" library="resistor" package="M0805" value="8k06" x="36.449" y="19.304"/>
+<element name="R18" library="resistor" package="M0805" value="10k" x="36.449" y="19.304"/>
 </elements>
 <signals>
 <signal name="SW1">

@@ -13367,9 +13367,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <part name="U$5" library="teile" deviceset="SIA440DJ" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor-shunt" deviceset="BVS" device="" value="0,004"/>
-<part name="R2" library="resistor-shunt" deviceset="BVS" device="" value="0,009"/>
-<part name="R3" library="resistor-shunt" deviceset="BVS" device="" value="0,003"/>
+<part name="R1" library="resistor-shunt" deviceset="BVS" device="" value="0,005"/>
+<part name="R2" library="resistor-shunt" deviceset="BVS" device="" value="0,01"/>
+<part name="R3" library="resistor-shunt" deviceset="BVS" device="" value="0,004"/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+12V" device=""/>
 <part name="L1" library="inductors" deviceset="DR125" device="" value="6µ8"/>
@@ -13389,16 +13389,16 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <part name="C10" library="resistor" deviceset="C-EU" device="C0805K" value="4µ7"/>
 <part name="C11" library="resistor" deviceset="C-EU" device="C0805K" value="100n"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805K" value="33n"/>
-<part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="22n"/>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0805K" value="5n"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="M0805" value="51"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="M0805" value="866k"/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="M0805" value="1M"/>
-<part name="R7" library="resistor" deviceset="R-EU_" device="M0805" value="576k"/>
-<part name="R8" library="resistor" deviceset="R-EU_" device="M0805" value="57k6"/>
+<part name="R5" library="resistor" deviceset="R-EU_" device="M0805" value="470k"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="M0805" value="470k"/>
+<part name="R7" library="resistor" deviceset="R-EU_" device="M0805" value="100k"/>
+<part name="R8" library="resistor" deviceset="R-EU_" device="M0805" value="56k"/>
 <part name="R9" library="resistor" deviceset="R-EU_" device="M0805" value="84k5"/>
-<part name="R10" library="resistor" deviceset="R-EU_" device="M0805" value="5k1"/>
-<part name="R11" library="resistor" deviceset="R-EU_" device="M0805" value="73k2"/>
-<part name="R12" library="resistor" deviceset="R-EU_" device="M0805" value="8k06"/>
+<part name="R10" library="resistor" deviceset="R-EU_" device="M0805" value="12k"/>
+<part name="R11" library="resistor" deviceset="R-EU_" device="M0805" value="470k"/>
+<part name="R12" library="resistor" deviceset="R-EU_" device="M0805" value="30k"/>
 <part name="R13" library="resistor" deviceset="R-EU_" device="M0805" value="200k"/>
 <part name="R14" library="resistor" deviceset="R-EU_" device="M0805" value="100k"/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
@@ -13429,14 +13429,14 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="SML0805"/>
 <part name="LED2" library="led" deviceset="LED" device="SML0805"/>
-<part name="R16" library="resistor" deviceset="R-EU_" device="M0805" value="51"/>
-<part name="R17" library="resistor" deviceset="R-EU_" device="M0805" value="51"/>
+<part name="R16" library="resistor" deviceset="R-EU_" device="M0805" value="0"/>
+<part name="R17" library="resistor" deviceset="R-EU_" device="M0805" value="330"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="X1" library="con-lumberg" deviceset="NEB21R" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
-<part name="R18" library="resistor" deviceset="R-EU_" device="M0805" value="8k06"/>
+<part name="R18" library="resistor" deviceset="R-EU_" device="M0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -13509,7 +13509,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <instance part="P+8" gate="1" x="30.48" y="25.4"/>
 <instance part="P+9" gate="1" x="33.02" y="22.86"/>
 <instance part="P+10" gate="1" x="35.56" y="20.32"/>
-<instance part="SV2" gate="G$1" x="215.9" y="63.5" rot="R180"/>
+<instance part="SV2" gate="G$1" x="218.44" y="63.5" rot="R180"/>
 <instance part="LED1" gate="G$1" x="2.54" y="66.04"/>
 <instance part="LED2" gate="G$1" x="10.16" y="66.04"/>
 <instance part="R16" gate="G$1" x="10.16" y="76.2" rot="R90"/>
@@ -13519,7 +13519,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <instance part="X1" gate="G$1" x="35.56" y="111.76"/>
 <instance part="GND17" gate="1" x="17.78" y="111.76"/>
 <instance part="P+11" gate="1" x="25.4" y="111.76"/>
-<instance part="R18" gate="G$1" x="205.74" y="55.88" rot="R90"/>
+<instance part="R18" gate="G$1" x="208.28" y="55.88" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13739,7 +13739,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <junction x="200.66" y="83.82"/>
 <pinref part="SV2" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="78.74" x2="200.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="66.04" x2="205.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <junction x="200.66" y="78.74"/>
@@ -13822,7 +13822,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="200.66" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="50.8" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 <junction x="200.66" y="50.8"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
@@ -13984,7 +13984,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <pinref part="U$1" gate="G$1" pin="FB"/>
 <wire x1="195.58" y1="33.02" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SV2" gate="G$1" pin="2"/>
-<wire x1="208.28" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="63.5" x2="200.66" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -14098,7 +14098,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="SV2" gate="G$1" pin="3"/>
-<wire x1="205.74" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
