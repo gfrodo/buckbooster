@@ -13472,24 +13472,24 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <instance part="C10" gate="G$1" x="99.06" y="91.44" rot="R270"/>
 <instance part="C11" gate="G$1" x="45.72" y="35.56"/>
 <instance part="C12" gate="G$1" x="71.12" y="17.78"/>
-<instance part="C13" gate="G$1" x="81.28" y="10.16"/>
+<instance part="C13" gate="G$1" x="81.28" y="20.32"/>
 <instance part="R4" gate="G$1" x="43.18" y="86.36" rot="R90"/>
 <instance part="R5" gate="G$1" x="20.32" y="73.66" rot="R90"/>
 <instance part="R6" gate="G$1" x="27.94" y="73.66" rot="R90"/>
 <instance part="R7" gate="G$1" x="20.32" y="55.88" rot="R90"/>
 <instance part="R8" gate="G$1" x="27.94" y="55.88" rot="R90"/>
 <instance part="R9" gate="G$1" x="88.9" y="17.78" rot="R90"/>
-<instance part="R10" gate="G$1" x="81.28" y="17.78" rot="R90"/>
+<instance part="R10" gate="G$1" x="81.28" y="10.16" rot="R90"/>
 <instance part="R11" gate="G$1" x="200.66" y="71.12" rot="R90"/>
 <instance part="R12" gate="G$1" x="200.66" y="55.88" rot="R90"/>
 <instance part="R13" gate="G$1" x="50.8" y="58.42" rot="R180"/>
 <instance part="R14" gate="G$1" x="50.8" y="53.34" rot="R180"/>
 <instance part="GND5" gate="1" x="20.32" y="43.18"/>
 <instance part="GND6" gate="1" x="27.94" y="43.18"/>
-<instance part="GND7" gate="1" x="71.12" y="2.54"/>
+<instance part="GND7" gate="1" x="71.12" y="0"/>
 <instance part="GND8" gate="1" x="76.2" y="20.32"/>
-<instance part="GND9" gate="1" x="81.28" y="2.54"/>
-<instance part="GND10" gate="1" x="88.9" y="2.54"/>
+<instance part="GND9" gate="1" x="81.28" y="0"/>
+<instance part="GND10" gate="1" x="88.9" y="0"/>
 <instance part="GND11" gate="1" x="45.72" y="27.94"/>
 <instance part="GND12" gate="1" x="55.88" y="78.74"/>
 <instance part="D3" gate="G$1" x="137.16" y="93.98" rot="R270"/>
@@ -13516,9 +13516,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <instance part="R17" gate="G$1" x="2.54" y="76.2" rot="R90"/>
 <instance part="GND16" gate="1" x="2.54" y="55.88"/>
 <instance part="P+3" gate="1" x="2.54" y="86.36"/>
-<instance part="X1" gate="G$1" x="33.02" y="111.76"/>
-<instance part="GND17" gate="1" x="25.4" y="106.68"/>
-<instance part="P+11" gate="1" x="25.4" y="116.84"/>
+<instance part="X1" gate="G$1" x="35.56" y="111.76"/>
+<instance part="GND17" gate="1" x="17.78" y="111.76"/>
+<instance part="P+11" gate="1" x="25.4" y="111.76"/>
 <instance part="R18" gate="G$1" x="205.74" y="55.88" rot="R90"/>
 </instances>
 <busses>
@@ -13645,9 +13645,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <wire x1="20.32" y1="20.32" x2="33.02" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="3"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="P+11" gate="1" pin="+24V"/>
-<wire x1="27.94" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VINN" class="0">
@@ -13827,13 +13827,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
-<pinref part="GND9" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C12" gate="G$1" pin="2"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="71.12" y1="12.7" x2="71.12" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="12.7" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -13843,7 +13839,7 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <segment>
 <pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="88.9" y1="12.7" x2="88.9" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="12.7" x2="88.9" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
@@ -13856,9 +13852,19 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <wire x1="2.54" y1="60.96" x2="2.54" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G$1" pin="1"/>
+<pinref part="X1" gate="G$1" pin="3"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="27.94" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="X1" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="114.3" x2="17.78" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="111.76" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
+<junction x="27.94" y="114.3"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="5.08" x2="81.28" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -14005,12 +14011,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <wire x1="10.16" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="C13" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SS"/>
@@ -14021,13 +14021,6 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <wire x1="55.88" y1="25.4" x2="55.88" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="22.86" x2="71.12" y2="22.86" width="0.1524" layer="91"/>
 <junction x="71.12" y="22.86"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VC"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="25.4" x2="81.28" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -14107,6 +14100,19 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <pinref part="SV2" gate="G$1" pin="3"/>
 <wire x1="205.74" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="VC"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="22.86" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
