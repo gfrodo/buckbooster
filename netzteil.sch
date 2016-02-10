@@ -15252,6 +15252,98 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-ml">
+<description>&lt;b&gt;Harting  Connectors&lt;/b&gt;&lt;p&gt;
+Low profile connectors, straight&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="MPX6">
+<smd name="P3" x="2.2" y="-2.54" dx="5.08" dy="2" layer="16" rot="R90"/>
+<smd name="P5" x="-2.2" y="-2.54" dx="5.08" dy="2" layer="16" rot="R90"/>
+<smd name="P1A" x="5.08" y="-2.54" dx="5.08" dy="2.54" layer="16" rot="R90"/>
+<smd name="P6A" x="-5.08" y="-2.54" dx="5.08" dy="2.54" layer="16" rot="R90"/>
+<rectangle x1="-2.5" y1="-4.9" x2="-1.9" y2="0" layer="22" rot="R180"/>
+<rectangle x1="1.9" y1="-4.9" x2="2.5" y2="0" layer="22" rot="R180"/>
+<rectangle x1="4.58" y1="-4.9" x2="5.58" y2="0" layer="22" rot="R180"/>
+<rectangle x1="-5.58" y1="-4.9" x2="-4.58" y2="0" layer="22" rot="R180"/>
+<wire x1="8" y1="0" x2="-8" y2="0" width="0.127" layer="22"/>
+<wire x1="-8" y1="0" x2="-8" y2="11" width="0.127" layer="22"/>
+<wire x1="-8" y1="11" x2="-2.3" y2="11" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="11" x2="-2.3" y2="8.8" width="0.127" layer="22"/>
+<wire x1="-2.3" y1="8.8" x2="2.3" y2="8.8" width="0.127" layer="22"/>
+<wire x1="2.3" y1="8.8" x2="2.3" y2="11" width="0.127" layer="22"/>
+<wire x1="2.3" y1="11" x2="8" y2="11" width="0.127" layer="22"/>
+<wire x1="8" y1="11" x2="8" y2="0" width="0.127" layer="22"/>
+<smd name="P4" x="-2.2" y="-2.54" dx="5.08" dy="2" layer="1" rot="R90"/>
+<smd name="P2" x="2.2" y="-2.54" dx="5.08" dy="2" layer="1" rot="R90"/>
+<smd name="P6B" x="-5.08" y="-2.54" dx="5.08" dy="2.54" layer="1" rot="R90"/>
+<smd name="P1B" x="5.08" y="-2.54" dx="5.08" dy="2.54" layer="1" rot="R90"/>
+<rectangle x1="1.9" y1="-4.9" x2="2.5" y2="0" layer="21"/>
+<rectangle x1="-2.5" y1="-4.9" x2="-1.9" y2="0" layer="21"/>
+<rectangle x1="-5.58" y1="-4.9" x2="-4.58" y2="0" layer="21"/>
+<rectangle x1="4.58" y1="-4.9" x2="5.58" y2="0" layer="21"/>
+<hole x="-5.08" y="-4.445" drill="1"/>
+<hole x="5.08" y="-4.445" drill="1"/>
+<wire x1="-8" y1="0" x2="8" y2="0" width="0.127" layer="21"/>
+<wire x1="8" y1="0" x2="8" y2="11" width="0.127" layer="21"/>
+<wire x1="8" y1="11" x2="4" y2="11" width="0.127" layer="21"/>
+<wire x1="4" y1="11" x2="4" y2="4.3" width="0.127" layer="21"/>
+<wire x1="4" y1="4.3" x2="-4" y2="4.3" width="0.127" layer="21"/>
+<wire x1="-4" y1="4.3" x2="-4" y2="11" width="0.127" layer="21"/>
+<wire x1="-4" y1="11" x2="-8" y2="11" width="0.127" layer="21"/>
+<wire x1="-8" y1="11" x2="-8" y2="0" width="0.127" layer="21"/>
+<rectangle x1="1.9" y1="4.3" x2="2.5" y2="9.1" layer="21"/>
+<rectangle x1="-2.5" y1="4.3" x2="-1.9" y2="9.1" layer="21"/>
+<text x="-6.35" y="11.43" size="1.27" layer="25">name</text>
+<text x="2.54" y="11.43" size="1.27" layer="27">value</text>
+</package>
+</packages>
+<symbols>
+<symbol name="MPX6P">
+<wire x1="3.81" y1="-7.62" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="-3.81" y2="3.81" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="-7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="7.62" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
+<wire x1="0" y1="-6.35" x2="0" y2="-5.08" width="0.6096" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="6.35" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.6096" layer="94"/>
+<text x="1.27" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="0" y="-10.16" visible="pad" length="middle" direction="pwr" rot="R90"/>
+<pin name="2" x="-7.62" y="-2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="3" x="7.62" y="-2.54" visible="pad" length="middle" direction="pwr" rot="R180"/>
+<pin name="4" x="-7.62" y="2.54" visible="pad" length="middle" direction="pwr"/>
+<pin name="5" x="7.62" y="2.54" visible="pad" length="middle" direction="pwr" rot="R180"/>
+<pin name="6" x="0" y="10.16" visible="pad" length="middle" direction="pwr" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MPX6P">
+<gates>
+<gate name="G$1" symbol="MPX6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MPX6">
+<connects>
+<connect gate="G$1" pin="1" pad="P1A P1B"/>
+<connect gate="G$1" pin="2" pad="P2"/>
+<connect gate="G$1" pin="3" pad="P3"/>
+<connect gate="G$1" pin="4" pad="P4"/>
+<connect gate="G$1" pin="5" pad="P5"/>
+<connect gate="G$1" pin="6" pad="P6A P6B"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -15345,6 +15437,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <part name="R21(/OPT)" library="resistor" deviceset="R-EU_" device="M0805" value="0"/>
 <part name="GND9" library="supply1" deviceset="GNDA" device=""/>
 <part name="C18" library="resistor" deviceset="CPOL-EU" device="153CLV-0605" value="100µ"/>
+<part name="U$2" library="con-ml" deviceset="MPX6P" device=""/>
+<part name="GND18" library="supply1" deviceset="GND" device=""/>
+<part name="P+12" library="supply1" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15441,6 +15536,9 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <instance part="R21(/OPT)" gate="G$1" x="73.66" y="12.7" rot="R90"/>
 <instance part="GND9" gate="1" x="73.66" y="0"/>
 <instance part="C18" gate="G$1" x="127" y="111.76"/>
+<instance part="U$2" gate="G$1" x="162.56" y="12.7" rot="R180"/>
+<instance part="GND18" gate="1" x="162.56" y="-5.08"/>
+<instance part="P+12" gate="1" x="162.56" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -15565,6 +15663,19 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="P+11" gate="1" pin="+24V"/>
 <wire x1="30.48" y1="109.22" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="15.24" x2="170.18" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="P+12" gate="1" pin="+24V"/>
+<wire x1="170.18" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="25.4" x2="162.56" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="25.4" x2="162.56" y2="22.86" width="0.1524" layer="91"/>
+<junction x="162.56" y="25.4"/>
+<pinref part="U$2" gate="G$1" pin="3"/>
+<wire x1="162.56" y1="25.4" x2="154.94" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="25.4" x2="154.94" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VINN" class="0">
@@ -15730,6 +15841,19 @@ Source: http://www.lumberg.com/Produkte/PDFs/NEB21R.pdf</description>
 <wire x1="30.48" y1="111.76" x2="27.94" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="111.76" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <junction x="27.94" y="114.3"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="4"/>
+<wire x1="170.18" y1="10.16" x2="170.18" y2="0" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="6"/>
+<wire x1="170.18" y1="0" x2="162.56" y2="0" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="0" x2="162.56" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="162.56" y1="0" x2="162.56" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="162.56" y="0"/>
+<pinref part="U$2" gate="G$1" pin="5"/>
+<wire x1="162.56" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="0" x2="154.94" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
